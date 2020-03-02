@@ -1,4 +1,4 @@
-FROM node:10-slim
+FROM node:12-slim
 COPY *.zip ./
 RUN apt-get update \
   && apt-get upgrade -y \
